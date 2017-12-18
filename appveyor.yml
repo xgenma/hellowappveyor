@@ -24,6 +24,9 @@ build_script:
   - "ant"
 #  - "pwd" Å® /c/projects/hellowappveyor
   - "dir ."
-  - "dir .src"
-  - "dir .build"
-  - "dir .dist"
+  - "dir src"
+  - "dir build"
+  - "dir dist"
+  - "cd build"
+  - "cd hello"
+  - "Java Hello.class"
