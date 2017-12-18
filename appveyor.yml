@@ -21,7 +21,8 @@ install:
 build: off
 
 build_script:
-#  - "ant"
-  - "pwd"
-  - "dir ./dist"
-  - "dir ./builds"
+  - "ant"
+#  - "pwd" Å® /c/projects/hellowappveyor
+  - "dir ."
+  - "dir ./src"
+  - "dir ./src/hello"
