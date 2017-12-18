@@ -28,5 +28,6 @@ build_script:
   - "dir build"
   - "dir dist"
   - "cd build"
+  - "cd classes"
   - "cd hello"
   - "Java Hello.class"
