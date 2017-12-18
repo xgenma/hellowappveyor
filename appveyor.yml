@@ -22,4 +22,4 @@ build: off
 
 build_script:
   - "ant"
-  - "Java ./build.hello.Hello.class"
+  - "Java ./build/hello/Hello.class"
