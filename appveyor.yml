@@ -25,4 +25,6 @@ build_script:
 #  - "pwd" Å® /c/projects/hellowappveyor
   - "dir ."
   - "dir src"
-  - "dir src/hello"
+  - "dir build"
+  - "dir dist"
+  - "dir src\hello"
