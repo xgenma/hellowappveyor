@@ -23,16 +23,17 @@ build: off
 build_script:
   - "ant"
 #  - "pwd" ¨ /c/projects/hellowappveyor
-  - "dir ."
-  - "dir src"
-  - "dir build"
-  - "dir dist"
+#  - "dir ."
+#  - "dir src"
+#  - "dir build"
+#  - "dir dist"
+# class‚ğ’¼ÚÀs‚·‚éê‡
 #  - "cd build"
 #  - "dir ."
 #  - "cd classes"
 #  - "dir ."
 #  - "cd hello"
 #  - "dir ."
-#  - "Java Hello.class"
+#  - "Java Hello"
   - "cd dist"
   - "Java -jar hello.jar"
